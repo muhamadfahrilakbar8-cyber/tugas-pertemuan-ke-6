@@ -1,0 +1,7 @@
+Penjelasan Program Input Nilai
+
+Program menggunakan dictionary Bernama data_mahasiswa untuk menyimpan data. Setiap mahasiswa disimpan dengan NIM sebaha key, dan value berupa dictionary yang berisi informasi lengkap mahasiswa.
+
+Program dimulai dengan menginisialisai membuat dictionary kosong dan menampilkan menu Utama dalam loop tak terbatas(while True). Menu Utama program menampilkan 6 plihan, yaitu Lihat untuk menampilkan semua data, Tambah untuk menambah data baru, Ubag untuk mengubah data yang sudah ada, Hapus untuk menghapus data, Cari untuk mencari data tertentu, dan Keluar untuk mengakhiri program.
+
+Fitur Tambah meminta input NIM, Nama, dan 3 nilai(Tugas, UTS, UAS), lalu menghitung nilai akhir dan menyimpan semua data ke dictionary dengan NIM sebagai key. Fitur Ubah meminta NIM yang akan diubah, lalu meminta nilai baru, menghitung nilaiakhir berdasarkan nilai baru, dan memperbarui data di dictionary dengan mempertahankan nama yang lama. Fitur Lihat menampilkan table dengan header yang rapi, melakukan loop untuk semua data dalam dictionary. Fitur Hapus meminta NIM yang akan dihapus dan menghapus data dari dictionary menggunakan perintah del. Fitur Cari meminta NIMyang dicari dan menampilkan data mahasiswa tersebut dalam format table. Keluar program menggunakan break untuk mengakhiri looping. Lalu terakhir, jika input tidak sesuai menu, maka program akan menampilkan pesan eror dan Kembali ke menu Utama.
